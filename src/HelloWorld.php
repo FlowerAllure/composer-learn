@@ -1,10 +1,9 @@
 <?php
-namespace EmptyBottle;
+namespace Flowerallure\ComposerLearn;
 
 class HelloWorld
 {
-
-    public static function sout(): string
+    public static function stout()
     {
         return "Hello World!";
     }

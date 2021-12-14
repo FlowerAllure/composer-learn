@@ -1,12 +1,12 @@
 {
-    "name": "allureflower/composer-learn",
+    "name": "flowerallure/composer-learn",
     "description": "First Learn",
     "license": ["MIT"],
     "type": "library",
     "authors": [
         {
-            "name": "emptybottle",
-            "email": "emptybottle@mail.com"
+            "name": "pan",
+            "email": "feng.pan@mail.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "EmptyBottle\\": "src/"
+            "Flowerallure\\ComposerLearn\\": "src/"
         }
     }
 }
