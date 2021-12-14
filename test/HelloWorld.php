@@ -1,5 +1,7 @@
 <?php
 
+use Flowerallure\ComposerLearn\HelloWorld;
+
 require '../vendor/autoload.php';
 
-var_dump(\EmptyBottle\HelloWorld::sout());
+var_dump(HelloWorld::stout());
