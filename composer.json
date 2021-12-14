@@ -1,0 +1,21 @@
+{
+    "name": "emptybottle/learn",
+    "description": "First Learn",
+    "license": ["MIT"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "emptybottle",
+            "email": "emptybottle@mail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "EmptyBottle\\": "src/"
+        }
+    }
+}
