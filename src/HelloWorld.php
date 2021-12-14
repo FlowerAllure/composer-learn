@@ -5,6 +5,11 @@ class HelloWorld
 {
     public static function stout()
     {
-        return "Hello World!";
+        echo "Hello World!";
+    }
+
+    public function helloWorld()
+    {
+        echo "Hello World!";
     }
 }
